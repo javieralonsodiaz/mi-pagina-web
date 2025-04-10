@@ -11,7 +11,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
      return (
       <div>
-        <h1 className="text-4xl">HOLA :)</h1>
+        <h1 className="text-4xl">HOLA 1º ASIR:)</h1>
         <h2>Esto es un subtitulo</h2>
       </div>
      )
