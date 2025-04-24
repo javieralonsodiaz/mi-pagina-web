@@ -10,9 +10,9 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Home() {
      return (
-      <div className="flex flex-col border-4 border-pink-500 justify-center items-center h-screen">
+      <div className="flex flex-col border-4 border-blue-500 justify-center items-center h-screen">
         <h1 className="text-4xl">HOLA 1º ASIR :)</h1>
-        <h2>Esto es un subtitulo</h2>
+        <h2>Nuevos cambios</h2>
       </div>
      )
 }
