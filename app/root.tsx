@@ -8,6 +8,7 @@ import {
 } from "react-router";
 import type { Route } from "./+types/root";
 import "./app.css";
+import Header from "./components/Header";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -32,11 +33,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <div className="border-4">
-        {children}
+        <Header />
+        <main className="container m-auto p-4">
+          {children}
+        </main>
         <ScrollRestoration />
         <Scripts />
-        </div>
       </body>
     </html>
   );
